@@ -10,8 +10,8 @@ const Navbar = () => {
       <ul className="navbar-menu">
         <Link onClick={()=>setMenu("Home")} className={menu==="Home"?"active":""}>Home</Link>
         <a href='#explore-menu'onClick={()=>setMenu("Menu")} className={menu==="Menu"?"active":""}>Menu</a>
-        <a href='#app-download'onClick={()=>setMenu("Orders")} className={menu==="Orders"?"active":""}>Orders</a>
-        <a href='#footer'onClick={()=>setMenu("Contact")} className={menu==="Contact"?"active":""}>Download</a>
+        <a href='#app-download'onClick={()=>setMenu("Download")} className={menu==="Download"?"active":""}>Download</a>
+        <a href='#footer'onClick={()=>setMenu("Contact")} className={menu==="Contact"?"active":""}>Contact</a>
       </ul>
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" />
